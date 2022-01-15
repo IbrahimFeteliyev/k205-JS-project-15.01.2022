@@ -266,8 +266,12 @@ main .section-2 .left-box .customer .comment .profil .text-profil span {
   opacity: .5;
 }
 
+main .section-2 .right-box {
+  margin-left: 10px;
+}
+
 main .section-2 .right-box .product-header {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 main .section-2 .right-box .product-header .left-text h4 {
@@ -553,6 +557,7 @@ main .section-2 .right-box .hot-product {
   border: 1px solid #d51243;
   border-radius: 10px;
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 main .section-2 .right-box .hot-product .hot-product-left {
@@ -711,6 +716,395 @@ main .section-2 .right-box .hot-product .hot-product-right .countdown p {
   color: #3e445a;
   width: 18%;
   margin-left: 15px;
+}
+
+main .section-2 .right-box .discount-box {
+  margin-bottom: 30px;
+}
+
+main .section-2 .right-box .discount-box a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #ed174a;
+  background-color: #FFEEF2;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+main .section-2 .right-box .discount-box a .purchase-text {
+  font-size: 17px;
+}
+
+main .section-2 .right-box .discount-box a .purchase-text strong {
+  text-decoration: underline;
+}
+
+main .section-2 .right-box .discount-box a .purchase-code {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ed174a;
+  border: 1px dashed #ff6048;
+  padding: 4px 1.25rem;
+  border-radius: 1.875rem;
+  margin: 0 15px;
+}
+
+main .section-2 .right-box .discount-box a .purchase-description {
+  font-size: 12px;
+  color: #9b9bb4;
+}
+
+main .section-2 .right-box .new-product-boxes {
+  border: 1px solid #e4e5ee;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box {
+  width: 25%;
+  border-left: 1px solid #e4e5ee;
+  border-bottom: 1px solid #e4e5ee;
+  padding: 20px;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box:hover {
+  margin-bottom: -20px;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+          box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box:hover .product-img {
+  cursor: pointer;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box:hover .product-img .product-button .button-1,
+main .section-2 .right-box .new-product-boxes .new-product-box:hover .product-img .product-button .button-2 {
+  right: 5%;
+  opacity: 1;
+  visibility: visible;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box:hover .add-button {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(25px);
+          transform: translateY(25px);
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box:first-child {
+  border-left: 0;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img {
+  position: relative;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img img {
+  width: 100%;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img .product-badge {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img .product-badge .badge1 {
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 5px;
+  letter-spacing: 0;
+  padding: 0.35rem 0.8rem;
+  color: #fff;
+  font-size: 11px;
+  line-height: 0.9;
+  font-family: "Dosis", sans-serif;
+  background-color: #2bbef9;
+  margin-bottom: 5px;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img .product-badge .badge2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  background-color: #71778e;
+  font-weight: 600;
+  border-radius: 5px;
+  letter-spacing: 0;
+  padding: 0.35rem 0.8rem;
+  color: #fff;
+  font-size: 11px;
+  font-family: "Dosis", sans-serif;
+  line-height: 0.9;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img .product-button .button-1,
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img .product-button .button-2 {
+  position: absolute;
+  right: 0%;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #e4e5ee;
+  border-radius: 50%;
+  color: black;
+  opacity: 0;
+  visibility: hidden;
+  background-color: white;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img .product-button .button-1:hover,
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img .product-button .button-2:hover {
+  background-color: #233a95;
+  border-color: #233a95;
+  color: white;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img .product-button .button-1 {
+  margin-bottom: 5px;
+  top: 0%;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-img .product-button .button-2 {
+  top: 28%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text {
+  padding: 0 10px;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text a {
+  text-decoration: none;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #202435;
+  display: inline-block;
+  -webkit-transition: 0.3 ease;
+  transition: 0.3 ease;
+  margin-bottom: 8px;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text a:hover {
+  color: #233a95;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text .stock,
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text .stock1 {
+  display: block;
+  color: #00b853;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text .stock1 {
+  color: #d51243;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text .stars {
+  margin-bottom: 8px;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text .stars i {
+  color: gold;
+  font-size: 11px;
+  margin-right: 2px;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text .stars i.last-i {
+  color: #e4e5ee;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text .stars span {
+  font-size: 12px;
+  margin-left: 6px;
+  color: gray;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text .prices .old-price {
+  color: #c2c2d3;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 5px;
+  text-decoration: line-through;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .product-text .prices .new-price {
+  color: #d51243;
+  font-weight: 500;
+}
+
+main .section-2 .right-box .new-product-boxes .new-product-box .add-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 7px 0;
+  font-size: 13px;
+  color: white;
+  border: 1px solid #233a95;
+  border-radius: 20px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  background-color: #233a95;
+  opacity: 0;
+  visibility: visible;
+  transition: 0.2s ease;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+main .section-2 .right-box .weekend-discount-boxes .weekend-box {
+  position: relative;
+}
+
+main .section-2 .right-box .weekend-discount-boxes .weekend-box .img-box img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+main .section-2 .right-box .weekend-discount-boxes .weekend-box .img-content {
+  top: 0;
+  left: 0;
+  position: absolute;
+  max-width: 70%;
+  padding: 40px 50px;
+  z-index: 1;
+}
+
+main .section-2 .right-box .weekend-discount-boxes .weekend-box .img-content .discount-text {
+  color: #00b853;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Dosis", sans-serif;
+  margin-bottom: 10px;
+}
+
+main .section-2 .right-box .weekend-discount-boxes .weekend-box .img-content h3 {
+  color: #3e445a;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: -.8px;
+}
+
+main .section-2 .right-box .weekend-discount-boxes .weekend-box .img-content span {
+  color: #9b9bb4;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+main .section-2 .right-box .weekend-discount-boxes .weekend-box .img-content .shop-a {
+  background-color: #c2c2d3;
+  color: white;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+main .section-2 .right-box .weekend-discount-boxes .weekend-box .link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+main .section-3 {
+  margin-top: 50px;
+}
+
+main .section-3 .category-boxes .left-item {
+  padding: 20px;
+  border: 1px solid #e4e5ee;
+  border-right: none;
+  text-align: center;
+  width: 20%;
+}
+
+main .section-3 .category-boxes .left-item .img img {
+  cursor: pointer;
+}
+
+main .section-3 .category-boxes .left-item .item-content {
+  margin-top: 5px;
+}
+
+main .section-3 .category-boxes .left-item .item-content a {
+  text-decoration: none;
+  color: #202435;
+  font-weight: 500;
+}
+
+main .section-3 .category-boxes .left-item .item-content .category-count {
+  color: gray;
+  font-size: 13px;
+}
+
+main .section-3 .category-boxes .right-item {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px solid #e4e5ee;
+  border-right: 1px solid #e4e5ee;
+}
+
+main .section-3 .category-boxes .right-item .item {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-top: 1px solid #e4e5ee;
+  border-left: 1px solid #e4e5ee;
+}
+
+main .section-3 .category-boxes .right-item .item .img {
+  width: 50%;
+  cursor: pointer;
+}
+
+main .section-3 .category-boxes .right-item .item .img img {
+  padding: 20px;
+}
+
+main .section-3 .category-boxes .right-item .item .item-content a {
+  text-decoration: none;
+  color: #202435;
+  font-weight: 500;
+}
+
+main .section-3 .category-boxes .right-item .item .item-content .category-count {
+  color: gray;
+  font-size: 13px;
 }
 
 footer .footer-top {
